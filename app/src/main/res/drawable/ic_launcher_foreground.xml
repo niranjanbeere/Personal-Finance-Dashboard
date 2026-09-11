@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Apex Chevron "A" Structure -->
+    <path
+        android:pathData="M54,28 L78,76 L66,76 L54,50 L42,76 L30,76 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="76"
+                android:endX="78"
+                android:endY="28"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="0.5" android:color="#2DD4BF" />
+                <item android:offset="1.0" android:color="#6366F1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Central Emerald Core Orb -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M54,58m-6.5,0a6.5,6.5 0 1,1 13,0a6.5,6.5 0 1,1 -13,0" />
+    <!-- Ambient Core Pulse Dot -->
+    <path
+        android:fillColor="#4EDEA3"
+        android:pathData="M54,58m-3.5,0a3.5,3.5 0 1,1 7,0a3.5,3.5 0 1,1 -7,0" />
+</vector>
